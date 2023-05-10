@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Room DB"
+            android:padding="10dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="#10DD19" />
+
+
+        <Button
+            android:id="@+id/Insert"
+            android:layout_width="wrap_content"
+            android:onClick="insertuser"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:text="Insert"/>
+    <Button
+        android:id="@+id/update"
+        android:onClick="updateuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="update"/>
+    <Button
+        android:id="@+id/Delete"
+        android:onClick="deleteuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="Read"/>
+    <Button
+        android:id="@+id/read1"
+        android:onClick="readalluser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="Read all user"/>
+
+    <Button
+        android:id="@+id/read2"
+        android:onClick="readmultipleuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="Read multiple user"/>
+
+
+
+    </LinearLayout>
+
+
